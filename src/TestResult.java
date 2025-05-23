@@ -5,8 +5,7 @@
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        String primes = Exercise.calculate(10, 50);
+        System.out.println("Prime numbers between 10 and 50: " + primes);
     }
 }
